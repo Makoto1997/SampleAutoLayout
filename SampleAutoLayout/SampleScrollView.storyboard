@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -47,10 +47,10 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="eS4-j6-Kbu" firstAttribute="top" secondItem="FlG-fI-dZc" secondAttribute="top" id="8wJ-pZ-UKk"/>
-                                    <constraint firstItem="eS4-j6-Kbu" firstAttribute="bottom" secondItem="FlG-fI-dZc" secondAttribute="bottom" constant="1636" id="O55-8C-Tcl"/>
+                                    <constraint firstItem="eS4-j6-Kbu" firstAttribute="bottom" secondItem="FlG-fI-dZc" secondAttribute="bottom" id="O55-8C-Tcl"/>
                                     <constraint firstItem="eS4-j6-Kbu" firstAttribute="height" secondItem="cyh-C1-EUb" secondAttribute="height" multiplier="2" id="cGP-cS-bMV"/>
                                     <constraint firstItem="eS4-j6-Kbu" firstAttribute="leading" secondItem="FlG-fI-dZc" secondAttribute="leading" id="fE7-GL-jnJ"/>
-                                    <constraint firstItem="eS4-j6-Kbu" firstAttribute="trailing" secondItem="FlG-fI-dZc" secondAttribute="trailing" constant="414" id="rKe-FU-Obe"/>
+                                    <constraint firstItem="eS4-j6-Kbu" firstAttribute="trailing" secondItem="FlG-fI-dZc" secondAttribute="trailing" id="rKe-FU-Obe"/>
                                     <constraint firstItem="eS4-j6-Kbu" firstAttribute="width" secondItem="cyh-C1-EUb" secondAttribute="width" id="x1U-Wu-ELG"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="FlG-fI-dZc"/>
@@ -83,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="95.652173913043484" y="112.5"/>
+            <point key="canvasLocation" x="1019" y="-3"/>
         </scene>
     </scenes>
     <resources>
