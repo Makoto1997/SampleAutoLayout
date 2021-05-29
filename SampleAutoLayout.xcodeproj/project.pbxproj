@@ -13,6 +13,9 @@
 		0EABD7D226613A9C001BE28C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EABD7D026613A9C001BE28C /* Main.storyboard */; };
 		0EABD7D426613A9D001BE28C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EABD7D326613A9D001BE28C /* Assets.xcassets */; };
 		0EABD7D726613A9D001BE28C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EABD7D526613A9D001BE28C /* LaunchScreen.storyboard */; };
+		0EABD7E526624756001BE28C /* TwitterMyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EABD7E426624756001BE28C /* TwitterMyPageViewController.swift */; };
+		0EABD7E726624770001BE28C /* TwitterMyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EABD7E626624770001BE28C /* TwitterMyPage.storyboard */; };
+		0EABD7E92662483D001BE28C /* SampleScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EABD7E82662483D001BE28C /* SampleScrollView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0EABD7D326613A9D001BE28C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EABD7D626613A9D001BE28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EABD7D826613A9D001BE28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EABD7E426624756001BE28C /* TwitterMyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterMyPageViewController.swift; sourceTree = "<group>"; };
+		0EABD7E626624770001BE28C /* TwitterMyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TwitterMyPage.storyboard; sourceTree = "<group>"; };
+		0EABD7E82662483D001BE28C /* SampleScrollView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SampleScrollView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 			children = (
 				0EABD7CA26613A9C001BE28C /* AppDelegate.swift */,
 				0EABD7CC26613A9C001BE28C /* SceneDelegate.swift */,
+				0EABD7E32662472E001BE28C /* Twitter */,
+				0EABD7E82662483D001BE28C /* SampleScrollView.storyboard */,
 				0EABD7CE26613A9C001BE28C /* ViewController.swift */,
 				0EABD7D026613A9C001BE28C /* Main.storyboard */,
 				0EABD7D326613A9D001BE28C /* Assets.xcassets */,
@@ -65,6 +73,15 @@
 				0EABD7D826613A9D001BE28C /* Info.plist */,
 			);
 			path = SampleAutoLayout;
+			sourceTree = "<group>";
+		};
+		0EABD7E32662472E001BE28C /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				0EABD7E626624770001BE28C /* TwitterMyPage.storyboard */,
+				0EABD7E426624756001BE28C /* TwitterMyPageViewController.swift */,
+			);
+			path = Twitter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EABD7E92662483D001BE28C /* SampleScrollView.storyboard in Resources */,
 				0EABD7D726613A9D001BE28C /* LaunchScreen.storyboard in Resources */,
+				0EABD7E726624770001BE28C /* TwitterMyPage.storyboard in Resources */,
 				0EABD7D426613A9D001BE28C /* Assets.xcassets in Resources */,
 				0EABD7D226613A9C001BE28C /* Main.storyboard in Resources */,
 			);
@@ -140,6 +159,7 @@
 				0EABD7CF26613A9C001BE28C /* ViewController.swift in Sources */,
 				0EABD7CB26613A9C001BE28C /* AppDelegate.swift in Sources */,
 				0EABD7CD26613A9C001BE28C /* SceneDelegate.swift in Sources */,
+				0EABD7E526624756001BE28C /* TwitterMyPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
