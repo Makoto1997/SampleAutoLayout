@@ -43,17 +43,23 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r5W-Nv-8GK" userLabel="MainScrollView">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EeJ-ij-jyz" userLabel="MainStackView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="678"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EeJ-ij-jyz" userLabel="MainStackView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1356"/>
                                         <subviews>
-                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P9d-lt-e8w" userLabel="PageScrollView">
-                                                <rect key="frame" x="0.0" y="0.0" width="240" height="678"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="53K-Wd-4Sl" userLabel="HeaderStackView">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="678"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" priority="1" constant="300" id="Sos-A4-jfd"/>
+                                                </constraints>
+                                            </stackView>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P9d-lt-e8w" userLabel="PageScrollView">
+                                                <rect key="frame" x="0.0" y="678" width="414" height="678"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="j5A-R3-kLp" userLabel="PageStackView">
-                                                        <rect key="frame" x="20" y="0.0" width="960" height="678"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="j5A-R3-kLp" userLabel="PageStackView">
+                                                        <rect key="frame" x="0.0" y="0.0" width="1656" height="678"/>
                                                         <subviews>
-                                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="h93-2N-GyP">
-                                                                <rect key="frame" x="0.0" y="0.0" width="240" height="678"/>
+                                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="h93-2N-GyP">
+                                                                <rect key="frame" x="0.0" y="0.0" width="414" height="678"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="omu-yv-fbv">
                                                                     <size key="itemSize" width="128" height="128"/>
@@ -63,7 +69,7 @@
                                                                 </collectionViewFlowLayout>
                                                                 <cells>
                                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ZAl-r7-Uel">
-                                                                        <rect key="frame" x="56" y="0.0" width="128" height="128"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="arL-0O-gwU">
                                                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
@@ -72,8 +78,8 @@
                                                                     </collectionViewCell>
                                                                 </cells>
                                                             </collectionView>
-                                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gaX-t3-mmT">
-                                                                <rect key="frame" x="240" y="0.0" width="240" height="678"/>
+                                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gaX-t3-mmT">
+                                                                <rect key="frame" x="414" y="0.0" width="414" height="678"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aol-dD-aMU">
                                                                     <size key="itemSize" width="128" height="128"/>
@@ -83,7 +89,7 @@
                                                                 </collectionViewFlowLayout>
                                                                 <cells>
                                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="KOf-kF-Xlt">
-                                                                        <rect key="frame" x="56" y="0.0" width="128" height="128"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lzA-4S-5K2">
                                                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
@@ -92,8 +98,8 @@
                                                                     </collectionViewCell>
                                                                 </cells>
                                                             </collectionView>
-                                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8sd-zs-4Mn">
-                                                                <rect key="frame" x="480" y="0.0" width="240" height="678"/>
+                                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8sd-zs-4Mn">
+                                                                <rect key="frame" x="828" y="0.0" width="414" height="678"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8EW-cE-Hxt">
                                                                     <size key="itemSize" width="128" height="128"/>
@@ -103,7 +109,7 @@
                                                                 </collectionViewFlowLayout>
                                                                 <cells>
                                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vPk-0k-oEN">
-                                                                        <rect key="frame" x="56" y="0.0" width="128" height="128"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="K9I-LM-WSG">
                                                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
@@ -112,8 +118,8 @@
                                                                     </collectionViewCell>
                                                                 </cells>
                                                             </collectionView>
-                                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2dh-Gp-sSR">
-                                                                <rect key="frame" x="720" y="0.0" width="240" height="678"/>
+                                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2dh-Gp-sSR">
+                                                                <rect key="frame" x="1242" y="0.0" width="414" height="678"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ILa-xg-xAP">
                                                                     <size key="itemSize" width="128" height="128"/>
@@ -123,7 +129,7 @@
                                                                 </collectionViewFlowLayout>
                                                                 <cells>
                                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="cpw-x2-sVT">
-                                                                        <rect key="frame" x="56" y="0.0" width="128" height="128"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="vSy-PQ-Mmy">
                                                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
@@ -147,12 +153,6 @@
                                                 <viewLayoutGuide key="contentLayoutGuide" id="dwf-aS-Eak"/>
                                                 <viewLayoutGuide key="frameLayoutGuide" id="778-qX-RTt"/>
                                             </scrollView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="53K-Wd-4Sl" userLabel="HeaderStackView">
-                                                <rect key="frame" x="240" y="0.0" width="174" height="678"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" priority="1" constant="300" id="Sos-A4-jfd"/>
-                                                </constraints>
-                                            </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
