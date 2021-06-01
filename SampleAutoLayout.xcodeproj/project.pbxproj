@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1216B726657DD90078826A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1216B626657DD90078826A /* Storyboard.storyboard */; };
 		0EABD7CB26613A9C001BE28C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EABD7CA26613A9C001BE28C /* AppDelegate.swift */; };
 		0EABD7CD26613A9C001BE28C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EABD7CC26613A9C001BE28C /* SceneDelegate.swift */; };
 		0EABD7D426613A9D001BE28C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EABD7D326613A9D001BE28C /* Assets.xcassets */; };
 		0EABD7D726613A9D001BE28C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EABD7D526613A9D001BE28C /* LaunchScreen.storyboard */; };
-		0EABD7E526624756001BE28C /* TwitterMyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EABD7E426624756001BE28C /* TwitterMyPageViewController.swift */; };
 		0EABD7E726624770001BE28C /* TwitterMyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EABD7E626624770001BE28C /* TwitterMyPage.storyboard */; };
 		0EABD7E92662483D001BE28C /* SampleScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EABD7E82662483D001BE28C /* SampleScrollView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E1216B626657DD90078826A /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		0EABD7C726613A9C001BE28C /* SampleAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EABD7CA26613A9C001BE28C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EABD7CC26613A9C001BE28C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0EABD7D326613A9D001BE28C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EABD7D626613A9D001BE28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EABD7D826613A9D001BE28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0EABD7E426624756001BE28C /* TwitterMyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterMyPageViewController.swift; sourceTree = "<group>"; };
 		0EABD7E626624770001BE28C /* TwitterMyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TwitterMyPage.storyboard; sourceTree = "<group>"; };
 		0EABD7E82662483D001BE28C /* SampleScrollView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SampleScrollView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				0EABD7E626624770001BE28C /* TwitterMyPage.storyboard */,
-				0EABD7E426624756001BE28C /* TwitterMyPageViewController.swift */,
+				0E1216B626657DD90078826A /* Storyboard.storyboard */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -139,6 +139,7 @@
 				0EABD7D726613A9D001BE28C /* LaunchScreen.storyboard in Resources */,
 				0EABD7E726624770001BE28C /* TwitterMyPage.storyboard in Resources */,
 				0EABD7D426613A9D001BE28C /* Assets.xcassets in Resources */,
+				0E1216B726657DD90078826A /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +152,6 @@
 			files = (
 				0EABD7CB26613A9C001BE28C /* AppDelegate.swift in Sources */,
 				0EABD7CD26613A9C001BE28C /* SceneDelegate.swift in Sources */,
-				0EABD7E526624756001BE28C /* TwitterMyPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
