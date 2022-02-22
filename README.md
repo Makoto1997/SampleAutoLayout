@@ -1,0 +1,1 @@
+Twitterのプロフィール画面のUIを全てStoryboardのAutoLayoutだけで作成したサンプルです。
